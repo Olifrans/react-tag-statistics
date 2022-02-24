@@ -1,0 +1,37 @@
+
+
+
+https://www.youtube.com/watch?v=VNmdw9ZNr1I&list=PL3-V86YgFEXQfp3PcbKFBOJFNEnUzPha7&index=1
+
+
+https://github.com/rodgtr1/youtube-stats
+
+
+libs do proj:
+
+https://tailwindcss.com/
+
+
+1 --> usada -- https://cdnjs.com/libraries/tailwindcss
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.css" integrity="sha512-vA/fpEI8+rrDsPceGG+Rz4NBhaNE4lvJ8CrNfspqDQi6uyIs82Hwr8gm/E+SRs+ZKjJ2ihOdb6esDSAuJrWOhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+no index public
+
+
+https://tailwindui.com/
+
+
+https://developers.google.com/youtube/v3
+
+https://developers.google.com/youtube/v3/docs
+https://developers.google.com/youtube/v3/docs/videos/list
+
+GET https://www.googleapis.com/youtube/v3/videos
+
+
+
+https://github.com/axios/axios
+
+
+npm install axios
