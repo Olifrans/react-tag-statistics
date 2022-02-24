@@ -1,13 +1,11 @@
-import axios from "axios";
+import axios from 'axios'
 
-//const KEY = "";
 const KEY = process.env.REACT_APP_KEY;
 
 export default axios.create({
-  baseURL: "https://www.googleapis.com/youtube/v3",
-  params:{
-    //part: 'snippet, statistics',
-    part: 'snippet',
+  baseURL: 'https://www.googleapis.com/youtube/v3',
+  params: {
+    part: 'snippet, statistics',
     key: KEY
   }
 });
@@ -17,8 +15,17 @@ export default axios.create({
 
 
 
-// const instance = axios.create({
-//     baseURL: 'https://some-domain.com/api/',
-//     timeout: 1000,
-//     headers: {'X-Custom-Header': 'foobar'}
-//   });
+
+
+// import axios from "axios";
+
+// const KEY = "";
+// //const KEY = process.env.REACT_APP_KEY;
+
+// export default axios.create({
+//   baseURL: "https://www.googleapis.com/youtube/v3",
+//   params: {
+//     part: "snippet, statistics",
+//     key: KEY,
+//   },
+// });
